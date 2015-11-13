@@ -1,0 +1,69 @@
+html {
+   /* Needed to fix footer at bottom of browser */
+   position: relative;
+   min-height: 100%;
+}
+
+body {
+   /* Move down content because of fixed navbar at top */
+   padding-top: 50px;
+   /* Set margin bottom allow for footer height */
+   margin-bottom: 50px;
+    background-image: url(images/tartan.png); 
+    background-color: #A2C0A7; 
+}
+
+footer {
+   position: fixed;
+   bottom: 0;
+   height: 50px;
+   width: 100%;
+   background-color: #5E2241;
+   color: #CEAEBF;
+   text-align: center;
+   padding: 15px;
+}
+.features {
+    list-style-type: none; 
+    padding: 0; 
+}
+#main {
+    background-color: #FBE7D4; 
+    padding-bottom: 25px; 
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; 
+}
+#main .row {
+    padding-bottom: 15px; 
+}
+.navbar-default {
+    background-color: #5E2241; 
+    border-color: #5E2241; 
+}
+.navbar-default .navbar-brand {
+    color: #CEAEBF; 
+}
+.navbar-default .navbar-nav a:hover {
+    background-color: #d09 !important;
+    color: #fff !important;
+}
+.navbar-default .btn {
+    background-color: #CEAEBF; 
+    color: #5E2241; 
+}
+.jumbotron {
+    margin-top: 15px;
+    padding-bottom: 25px; 
+    color: #000000; 
+    text-align: center; 
+    box-shadow: 3px 3px 4px #FBE7D4; 
+    background-image: url(images/veggies-background.jpg); 
+    background-size: 100%; 
+}
+.jumbotron small {
+    color: #1F5829; 
+}
+.jumbotron p {
+    font-size: 1.3em; 
+    font-weight: bold; 
+}
